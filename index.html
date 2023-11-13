@@ -25,6 +25,11 @@
             color: #333;
         }
 
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
         form {
             display: flex;
             flex-direction: column;
@@ -59,9 +64,12 @@
 <body>
 
 <div class="container">
+    <div class="logo">
+        <img src="https://christmascheerbarrie.com/wp-content/uploads/2019/02/2000px-Cabelas_Logo.svg.png" alt="Cabela's Logo" width="150">
+    </div>
     <h2>Add New Product</h2>
     <form>
-        <label for="productId">Product ID:</label>
+         <label for="productId">Product ID:</label>
         <input type="text" id="productId" name="productId" required>
 
         <label for="productName">Product Base Name:</label>
